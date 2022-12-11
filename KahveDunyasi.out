@@ -1,0 +1,190 @@
+SIMAN Run Controller.
+
+0.0036944444 Hours>
+----------------------------------------------------------------------
+17114:CCREAT
+Entity: 10
+A runtime error was detected at time 1.0 at the following block:
+
+ *   56 329$            CREATE,45,HoursToBaseTime(0.0),Customer:
+                            HoursToBaseTime(1),10:
+                            NEXT(330$);
+
+Maximum of 150 entities exceeded.
+Possible causes:
+- A logic problem in your model is creating too many entities or not
+  disposing them. The run controller may be helpful in finding the problem.
+- You are in demo mode and have exceeded the entity limit. The commercial
+  version is required to run large models.
+- You have set an entity limit on the DISCRETE element that is too small.
+  Remove the limit or set it to a larger number.
+- You have exceeded the standard array s 
+pace for models. Use the Array Sizes
+  page in the Run/Setup dialog to increase the RSET space allocated and
+  recheck your model.
+----------------------------------------------------------------------
+
+
+SIMAN Run Controller.
+
+1.0 Hours>
+                                      ARENA Simulation Results
+                                       hale.sahin@outlook.com
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 8/10/2018
+Analyst: hale.sahin@outlook.com                                      Model revision date: 8/10/2018
+
+Replication ended at time      : 1.0 Hours (Monday, August 20, 2018, 08:25:21)
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Waiter.VATime                                   --         --         --         --          0
+Waiter.NVATime                                  --         --         --         --          0
+Waiter.WaitTime                                 --         --         --         --          0
+Waiter.TranTime                                 --         --         --         --          0
+Waiter.OtherTime                                --         --         --         --          0
+Waiter.TotalTime                                --         --         --         --          0
+Customer.VATime                             .00000     (Insuf)    .00000     .00000          2    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000          2    
+Customer.WaitTime                           .00000     (Insuf)    .00000     .00000          2    
+Customer.TranTime                           .09167     (Insuf)    .09167     .09167          2    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000          2    
+Customer.TotalTime                          .09167     (Insuf)    .09167     .09167          2    
+Ordering Time for Drink.Queue.WaitingTime   .00000     (Insuf)    .00000     .00000          3    
+Ordering Time.Queue.WaitingTime             .48264     (Insuf)    .00392     .94909         32    
+Food and Drink Service Time.Queue.WaitingT      --         --         --         --          0
+Credit Card Payment.Queue.WaitingTime           --         --         --         --          0
+Eating and Drinking Process.Queue.WaitingT      --         --         --         --          0
+Drink Process.Queue.WaitingTime                 --         --         --         --          0
+Credit Card Check.Queue.WaitingTime             --         --         --         --          0
+Cash Check Time.Queue.WaitingTime               --         --         --         --          0
+Food and Drink Process.Queue.WaitingTime        --         --         --         --          0
+Restaurant Queue.Queue.WaitingTime              --         --         --         --          0
+Cash Payment.Queue.WaitingTime                  --         --         --         --          0
+Garden Queue.Queue.WaitingTime                  --         --         --         --          0
+Drinking Process.Queue.WaitingTime              --         --         --         --          0
+Drink Service Time.Queue.WaitingTime            --         --         --         --          0
+Just Drink Service Time.Queue.WaitingTime       --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Just Drink Value                            2.2766     (Insuf)    1.0000     63.000     1.0000    
+Food and Drink Value                        7.6925     (Insuf)    1.0000     60.000     1.0000    
+Waiter.WIP                                  .00000     (Insuf)    .00000     .00000     .00000    
+Customer.WIP                                98.183     (Insuf)    .00000     123.00     123.00    
+Cash Worker.NumberBusy                      .00000     (Insuf)    .00000     .00000     .00000    
+Cash Worker.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cash Worker.Utilization                     .00000     (Insuf)    .00000     .00000     .00000    
+Table 10.NumberBusy                         .00000     (Insuf)    .00000     .00000     .00000    
+Table 10.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 10.Utilization                        .00000     (Insuf)    .00000     .00000     .00000    
+Table 3.NumberBusy                          .00000     (Insuf)    .00000     .00000     .00000    
+Table 3.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 3.Utilization                         .00000     (Insuf)    .00000     .00000     .00000    
+Table 2.NumberBusy                          .00000     (Insuf)    .00000     .00000     .00000    
+Table 2.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 2.Utilization                         .00000     (Insuf)    .00000     .00000     .00000    
+Table 1.NumberBusy                          .00000     (Insuf)    .00000     .00000     .00000    
+Table 1.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 1.Utilization                         .00000     (Insuf)    .00000     .00000     .00000    
+Table 7.NumberBusy                          .00000     (Insuf)    .00000     .00000     .00000    
+Table 7.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 7.Utilization                         .00000     (Insuf)    .00000     .00000     .00000    
+Table 6.NumberBusy                          .00000     (Insuf)    .00000     .00000     .00000    
+Table 6.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 6.Utilization                         .00000     (Insuf)    .00000     .00000     .00000    
+Table 5.NumberBusy                          .00000     (Insuf)    .00000     .00000     .00000    
+Table 5.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 5.Utilization                         .00000     (Insuf)    .00000     .00000     .00000    
+Table 4.NumberBusy                          .00000     (Insuf)    .00000     .00000     .00000    
+Table 4.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 4.Utilization                         .00000     (Insuf)    .00000     .00000     .00000    
+Waiter 3.NumberBusy                         .98333     (Insuf)    .00000     1.0000     1.0000    
+Waiter 3.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Waiter 3.Utilization                        .98333     (Insuf)    .00000     1.0000     1.0000    
+Waiter 2.NumberBusy                         .98333     (Insuf)    .00000     1.0000     1.0000    
+Waiter 2.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Waiter 2.Utilization                        .98333     (Insuf)    .00000     1.0000     1.0000    
+Table 9.NumberBusy                          .00000     (Insuf)    .00000     .00000     .00000    
+Table 9.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 9.Utilization                         .00000     (Insuf)    .00000     .00000     .00000    
+Waiter 1.NumberBusy                         .98333     (Insuf)    .00000     1.0000     1.0000    
+Waiter 1.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Waiter 1.Utilization                        .98333     (Insuf)    .00000     1.0000     1.0000    
+Table 8.NumberBusy                          .00000     (Insuf)    .00000     .00000     .00000    
+Table 8.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 8.Utilization                         .00000     (Insuf)    .00000     .00000     .00000    
+Ordering Time for Drink.Queue.NumberInQueu  50.025     (Insuf)    .00000     51.000     51.000    
+Ordering Time.Queue.NumberInQueue           27.177     (Insuf)    .00000     43.000     12.000    
+Food and Drink Service Time.Queue.NumberIn  13.228     (Insuf)    .00000     29.000     29.000    
+Credit Card Payment.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+Eating and Drinking Process.Queue.NumberIn  .00000     (Insuf)    .00000     .00000     .00000    
+Drink Process.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Credit Card Check.Queue.NumberInQueue       .00000     (Insuf)    .00000     .00000     .00000    
+Cash Check Time.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Food and Drink Process.Queue.NumberInQueue  .00000     (Insuf)    .00000     .00000     .00000    
+Restaurant Queue.Queue.NumberInQueue        .00000     (Insuf)    .00000     .00000     .00000    
+Cash Payment.Queue.NumberInQueue            .00000     (Insuf)    .00000     .00000     .00000    
+Garden Queue.Queue.NumberInQueue            .00000     (Insuf)    .00000     .00000     .00000    
+Drinking Process.Queue.NumberInQueue        .00000     (Insuf)    .00000     .00000     .00000    
+Drink Service Time.Queue.NumberInQueue      2.7937     (Insuf)    .00000     3.0000     3.0000    
+Just Drink Service Time.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+TableCounter                                    273  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Waiter.NumberIn                             .00000    
+Waiter.NumberOut                            .00000    
+Customer.NumberIn                           125.00    
+Customer.NumberOut                          2.0000    
+Cash Worker.NumberSeized                    .00000    
+Cash Worker.ScheduledUtilization            .00000    
+Table 10.NumberSeized                       .00000    
+Table 10.ScheduledUtilization               .00000    
+Table 3.NumberSeized                        .00000    
+Table 3.ScheduledUtilization                .00000    
+Table 2.NumberSeized                        .00000    
+Table 2.ScheduledUtilization                .00000    
+Table 1.NumberSeized                        .00000    
+Table 1.ScheduledUtilization                .00000    
+Table 7.NumberSeized                        .00000    
+Table 7.ScheduledUtilization                .00000    
+Table 6.NumberSeized                        .00000    
+Table 6.ScheduledUtilization                .00000    
+Table 5.NumberSeized                        .00000    
+Table 5.ScheduledUtilization                .00000    
+Table 4.NumberSeized                        .00000    
+Table 4.ScheduledUtilization                .00000    
+Waiter 3.NumberSeized                       11.000    
+Waiter 3.ScheduledUtilization               .98333    
+Waiter 2.NumberSeized                       13.000    
+Waiter 2.ScheduledUtilization               .98333    
+Table 9.NumberSeized                        .00000    
+Table 9.ScheduledUtilization                .00000    
+Waiter 1.NumberSeized                       11.000    
+Waiter 1.ScheduledUtilization               .98333    
+Table 8.NumberSeized                        .00000    
+Table 8.ScheduledUtilization                .00000    
+System.NumberOut                            2.0000    
+
+
+Simulation run time: 6.23 minutes.
+Simulation run completed with 1 error(s) and 0 warning(s).
